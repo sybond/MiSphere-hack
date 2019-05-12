@@ -266,4 +266,19 @@ Currently not enabled.
 
 #### Directory Structure
 
+In file: `root_structure.txt`
 
+#### Known information for now...
+
+- It using *Ambarella RTOS* Shell to allow external contact with Linux system
+- All material extracted using `/tmp/SD0/autexec.ash` script, that will be executed every time the device turned on
+- Bluetooth name defined in `/pref/bt.conf` file
+
+
+
+#### TO-DO
+
+- Find how Bluetooth works
+- Get some experiments:
+  - Pairing 3rd party bluetooth remote control
+  - Sniffing bluetooth data
