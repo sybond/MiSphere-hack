@@ -264,6 +264,10 @@ Currently not enabled.
 [    9.462774] bluesleep_start() t gpio23 sw out0
 ```
 
+#### Enable Telnet Access
+
+To enable Telnet Daemon in the box please see `scripts/autoexec_EnableTelnetDaemon.ash`. Basically we need to execute `/usr/sbin/telnetd`. Another way is to change file `/etc/init.d/S50service`, currently it is read-only access.
+
 #### Directory Structure
 
 In file: `root_structure.txt`
