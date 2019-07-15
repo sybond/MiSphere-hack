@@ -50,7 +50,12 @@ Some details about JSON format [here](somewhere).
 
 #### Shell access
 
-Currently not enabled.
+Enabled by adding `autoexec.ash`, following entries:
+```
+sleep 5
+t ipc rpc clnt exec2 '/usr/sbin/telnetd > /dev/null'
+```
+Basically just running the Telnet Daemon during startup. User: `root`, without password.
 
 #### Bootlog
 
