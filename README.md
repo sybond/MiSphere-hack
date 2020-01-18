@@ -59,7 +59,7 @@ Basically just running the Telnet Daemon during startup. User: `root`, without p
 
 #### Bootlog
 
-```sh
+```shell
 [    0.000000] Booting Linux on physical CPU 0x0
 [    0.000000] Linux version 3.10.71 (fx@fx-madv) (gcc version 4.9.2 20140904 (prerelease) (crosstool-NG linaro-1.13.1-4.9-2014.09 - Linaro GCC 4.9-2014.09) ) #1 PREEMPT Mon May 14 10:05:28 UTC 2018
 [    0.000000] CPU: ARMv7 Processor [414fc091] revision 1 (ARMv7), cr=10c5387d
@@ -276,6 +276,16 @@ To enable Telnet Daemon in the box please see `scripts/autoexec_EnableTelnetDaem
 #### Directory Structure
 
 In file: `root_structure.txt`
+
+#### Fixing Mi-Sphere Reboot Bugs
+
+1. Turn off camera
+2. Remove SD-card
+3. Hold wifi button
+4. Short press power button and keep holding wifi button (nothing will happen immediately)
+5. While keeping wifi button pressed, wait until both photo and video indicator start blinking (several long blinks and several short blinks)
+6. After indicators stop blinking release wifi button
+7. Your camera should now boot normally without issue
 
 #### Known information for now...
 
